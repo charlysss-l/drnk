@@ -1,0 +1,101 @@
+.first_flex {
+    background-color: #20201F;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+
+    .sec1_img1 {
+        height: 500px;
+        width: 400px;
+        object-fit: cover;
+        margin-left: 63rem;
+        margin-top: 4rem;
+    }
+
+    .first_content_icons {
+        ul {
+            margin-left: 18rem;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+        }
+
+        li img {
+            width: 100px;
+            height: 150px;
+            object-fit: cover;
+            margin-left: 23px;
+        }
+    }
+
+
+    .first_content_text1 {
+        color: #EFF5F3;
+        float: left;
+        position: absolute;
+        margin-top: 12rem;
+        margin-left: 8rem;
+        font-size: 120px;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 6rem;
+        text-transform: uppercase;
+    }
+}
+
+.second_flex {
+    background-color: #20201F;
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    text-align: center;
+
+    .sec2_content {
+
+        h1 {
+            color: #F2EFEB;
+            font-size: 58px;
+            font-weight: bold;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            margin-top: 7rem;
+            text-transform: uppercase;
+
+            span {
+                background: linear-gradient(to right,
+                        #F2EFEB 50%,
+                        #ccaf2e 50%,
+                        #ccaf2e);
+                background-size: 200%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                transition: 0.5s ease-out;
+
+                &:hover {
+                    background-position: -100%;
+                }
+            }
+        }
+
+        .sec2_row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 4px;
+
+            .sec2_column {
+                max-width: 25%;
+                padding: 0 4px;
+
+                img {
+                    margin-top: 10px;
+                    width: 100%;
+                    margin-left: 10rem;
+                    margin-right: 10rem;
+                }
+            }
+        }
+
+
+    }
+
+}
