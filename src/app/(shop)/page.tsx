@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from 'next/link';
 import style from "./page.module.scss";
-import NavigationBar from '../components/NavigationBar/NavigationBar';
+import NavigationBar from '../../components/NavigationBar/NavigationBar';
 
 
 export default function Home() {

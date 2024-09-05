@@ -1,0 +1,27 @@
+.nav {
+    left: 20px;
+    top: 30px;
+    transform-origin: bottom left;
+    transform: rotate(90deg) translateX(28px);
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+
+    .nav_items {
+        margin: 0 30px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .nav_link {
+        display: flex;
+        font-size: 15px;
+        color: #565555;
+        position: relative;
+        overflow: hidden;
+        text-decoration: none;
+        transition: .3s;
+    }
+
+}
